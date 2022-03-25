@@ -26,6 +26,7 @@ Autoclick.MouseButton1Down:Connect(function()
 		}
 	local Event = game:GetService("ReplicatedStorage").Clickerr
 	while true do
+	wait(0.2)
 	Event:InvokeServer(A_1)
 end
 end)
